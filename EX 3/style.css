@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    color: #fff;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 50px;
+    height: 500px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.starter {
+    background: linear-gradient(to bottom, #00C8FF , #5EFF61);
+}
+
+.standard {
+    background: linear-gradient(to bottom,  #C765FF , #FF61FF);
+}
+
+.premium {
+    background: linear-gradient(to bottom, #FF61FF , #00C8FF);
+}
+
+.card-header {
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #fff;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    margin-bottom: auto;
+    padding: 0;
+}
+.features li {
+    margin: 10px 0;
+}
+
+.button {
+    margin-bottom: 30px;
+    width: 140px;
+    height:50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.button:active {
+    background-color: #f2709c; 
+    color: white;
+    border-color: white; 
+}
